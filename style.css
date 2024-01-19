@@ -1,0 +1,128 @@
+*{
+    background-color: black;
+    font-family: monospace,'Courier New', Courier;
+}
+
+a{
+
+   color: aliceblue;
+
+}
+
+
+.menu-container {
+    /* ... */
+    display: flex;
+    font-size: 15px;
+    justify-content: center;    /* Add this */
+    background-color:black;
+    color:darkgoldenrod;
+    border : 4px solid gold;
+    border-radius: 25px;
+  }
+  
+  .subscribe{
+          font-size: 20px;
+      color: rgb(255, 255, 255);
+  }
+  
+  .menu {
+    border: 1px solid black;
+    width: 900px;
+    display: flex;
+    justify-content: space-around;
+    font-size: 25px;
+  }
+  
+  .links{
+      
+       
+       display: flex ;
+       justify-content: flex-end;
+       gap: 10px;
+  
+  }
+  .header-container {
+  color: darkgoldenrod;
+  background-color:black ;
+  display: flex;
+  justify-content: center;
+  border-radius: 30px;
+  }
+  .header {
+    width: 900px;
+    height: 250px;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+  }
+  .header {
+    /* ... */
+    align-items: center;  /* Add this */
+  }
+  
+  /* added by me */
+  .menu .name {
+   display:flex;
+    font-family: monospace;
+   color: goldenrod;
+   font-size: 25px;
+    
+  }
+  .logo{
+
+    background-color: black;
+  }
+  .headingconatiner{
+        padding : 7px;                                                                                                        
+  }
+  .adjust{
+    display:flex;
+    justify-content: center;
+  }
+  .articleheading{
+    display:flex;
+   padding : 3px;
+   border:2px;
+   color:black;
+   font-size: 30px;
+   justify-content: space-around ;
+   background-color: rgba(255, 255, 255, 0.626);
+   width:600px;
+   border-radius:30px;
+
+  }
+  .article{
+     color:darkgoldenrod;
+      display:flex;
+      justify-content: space-around;
+  }
+  .article1{
+    display:flex;
+  }
+  .article2{
+    display:flex;
+  }
+  .box{
+     
+    border-color: gold;
+
+  }
+  .articlescontainers{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border:10px;
+    border-color: gold;
+
+
+  }
+  .quickview{
+          display: flex;
+          border: 3px;
+          border-color: white;
+          gap:5 px;
+
+
+  }
